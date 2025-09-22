@@ -1,0 +1,15 @@
+# Core dependencies
+click>=8.0        # For building the CLI
+fastapi>=0.100    # For API endpoints
+uvicorn>=0.23     # ASGI server to run the API
+pydantic>=2.0     # For data validation and workflow schemas
+
+# Workflow / data handling
+networkx>=3.0     # For decision-point graph logic
+jsonschema>=4.0   # For validating workflow definitions
+
+# Optional / Dev dependencies
+pytest>=7.0       # For running tests
+pytest-cov>=4.0   # For coverage reports
+black>=23.0       # For code formatting
+isort>=5.10       # For import sorting
